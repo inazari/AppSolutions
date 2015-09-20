@@ -1,0 +1,541 @@
+
+/* ==========================
+Template name: Outlined Flat Buttons
+Version: 1.0
+Author: RowBootstrap
+Author website: http://www.rowbootstrap.com/
+========================== */
+
+
+/* =================================
+Basic Styling
+================================= */
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    background: #FFFFFF;
+}
+
+/* Text colors */
+
+.text-color-white {
+    color: #FFFFFF;
+}
+
+.text-color-black {
+    color: #000000;
+}
+
+.text-color-theme {
+    color: #746161;
+}
+
+/* Background colors */
+.theme-bg{
+    background: #746161;
+}
+
+.bg-black{
+    background: #000000;
+}
+
+.secondary-bg {
+    background: #f0ecf6;
+}
+
+
+/* Margin */
+
+.margin-bottom-0 {
+    margin-bottom: 0 !important;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px !important;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px !important;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px !important;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px !important;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px !important;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px !important;
+}
+
+.margin-bottom-60 {
+    margin-bottom: 60px !important;
+}
+
+.margin-bottom-70 {
+    margin-bottom: 70px !important;
+}
+
+.margin-bottom-80 {
+    margin-bottom: 80px !important;
+}
+
+.margin-bottom-90 {
+    margin-bottom: 90px !important;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px !important;
+}
+
+.margin-bottom-120 {
+    margin-bottom: 120px !important;
+}
+
+.margin-right-0 {
+    margin-right: 0 !important;
+}
+
+.margin-right-5 {
+    margin-right: 5px !important;
+}
+
+.margin-right-10 {
+    margin-right: 10px !important;
+}
+
+/* Padding surround */
+
+.padding-0 {
+    padding: 0px !important;
+}
+
+.padding-30 {
+    padding: 30px !important;
+}
+
+.padding-50 {
+    padding: 40px !important;
+}
+
+
+/* Buttons */
+
+.btn {
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: none;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size:14px;
+    line-height:20px;
+    font-weight:700;
+    text-transform:uppercase;
+    border: 3px solid;
+    padding:8px 20px;
+}
+
+.btn-outlined {
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-outlined.btn-theme {
+    background: none;
+    color: #746161;
+    border-color: #746161;
+}
+
+.btn-outlined.btn-theme:hover,
+.btn-outlined.btn-theme:active {
+    color: #FFF;
+    background: #746161;
+    border-color: #746161;
+}
+
+.btn-outlined.btn-black {
+    background: none;
+    color: #000000;
+    border-color: #000000;
+}
+
+.btn-outlined.btn-black:hover,
+.btn-outlined.btn-black:active {
+    color: #FFF;
+    background: #000000;
+    border-color: #000000;
+}
+
+.btn-outlined.btn-white {
+    background: none;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.btn-outlined.btn-white:hover,
+.btn-outlined.btn-white:active {
+    color: #746161;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.btn-xs{
+    font-size:11px;
+    line-height:14px;
+    border: 1px solid;
+    padding:5px 10px;
+}
+
+.btn-sm{
+    font-size:12px;
+    line-height:16px;
+    border: 2px solid;
+    padding:8px 15px;
+}
+
+.btn-lg{
+    font-size:18px;
+    line-height:22px;
+    border: 4px solid;
+    padding:13px 40px;
+}
+
+body
+{
+    background: url('http://farm3.staticflickr.com/2832/12303719364_c25cecdc28_b.jpg') fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.wrap
+{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+p.form-title
+{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+form
+{
+    width: 250px;
+    margin: 0 auto;
+}
+
+form.login input[type="text"], form.login input[type="password"]
+{
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.login input[type="submit"]
+{
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 16px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+form.login input[type="submit"]:hover
+{
+    transition: background-color 0.5s ease;
+}
+
+form.login .remember-forgot
+{
+    float: left;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+form.login .forgot-pass-content
+{
+    min-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form.login label, form.login a
+{
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+form.login a
+{
+    transition: color 0.5s ease;
+}
+
+form.login a:hover
+{
+    color: #2ecc71;
+}
+
+.pr-wrap
+{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.show-pass-reset
+{
+    display: block !important;
+}
+
+.pass-reset
+{
+    margin: 0 auto;
+    width: 250px;
+    position: relative;
+    margin-top: 22%;
+    z-index: 999;
+    background: #FFFFFF;
+    padding: 20px 15px;
+}
+
+.pass-reset label
+{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.pass-reset input[type="email"]
+{
+    width: 100%;
+    margin: 5px 0 0 0;
+    padding: 5px 10px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    outline: 0;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #000000;
+    outline: 0;
+}
+
+.pass-reset input[type="submit"]
+{
+    width: 100%;
+    border: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 10px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.pass-reset input[type="submit"]:hover
+{
+    transition: background-color 0.5s ease;
+}
+.posted-by
+{
+    position: absolute;
+    bottom: 26px;
+    margin: 0 auto;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 10px;
+    left: 45%;
+}
+
+
+/*navigation manu*/
+
+#form {
+    width: 400px;
+}
+#form #error {
+    width: 100%;
+    color:red;
+    background: #FFE6C5;
+    padding: 0 13px;
+    border-radius: 2px;
+    display: block;
+    text-align: center;
+    opacity: .9;
+    margin-top: 5px;
+    font-size: 15px;
+}
+#form input{
+
+    font-size: 20px;
+}
+@media screen and (min-width: 700px) {
+    #form #error {
+        width: 200px;
+        position: absolute;
+        right: 25px;
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    #form #error {
+        width: 220px;
+        position: absolute;
+        right: 90px;
+        margin-top: 0;
+    }
+
+}
+#log_fail{
+
+
+    text-align: center;
+    background: rgba(166, 48, 66, 0.8);
+    width: 80%;
+    margin: 5px auto 0 auto;
+    padding: 0 3px 0 12px;
+    border-radius: 4px;
+    color: white;
+}
+
+
+#form {
+}
+
+#form input{
+    background: rgba(54, 25, 25, .4);
+    border-color: whitesmoke;
+    border-radius: 4px;
+}
+#form input:hover{
+    background: rgba(54, 25, 25, .7);
+}
+#form input:focus{
+    background: rgba(54, 25, 25, .9);
+}
+
+#nav_left:hover{
+    opacity: .7;
+}
+
+#nav_left{
+    color: white;;
+    background: rgba(54, 25, 25, .40) !important;
+    border-radius: 2px;
+}
+
+.message{
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    background-color: #746161;
+    width: 50%;
+    margin: 15px auto;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    top: 45px;
+}
+#box_menu{
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    background-color: #746161;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: .6;
+
+}
+#box_menu a{
+    color: white;
+    opacity: 1;
+}
+#box_menu:hover{
+    opacity: 1;
+}
+
+
+/* layout.css Style */
+.upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+    color: #ccc;
+    border-style: dashed;
+    border-color: #ccc;
+    line-height: 200px;
+    text-align: center
+}
+.upload-drop-zone.drop {
+    color: #222;
+    border-color: #222;
+}
+
+.navbar {
+    position: relative;
+}
