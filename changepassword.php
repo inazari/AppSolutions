@@ -1,7 +1,8 @@
 <?php
 
 require_once 'core/init.php';
-include_once 'includes/header.html';
+
+include_once 'includes/log_in.html';
 $user = new User();
 $errors = array();
 if(!$user->isLoggedIn()){
@@ -54,17 +55,9 @@ if(Input::exists()){
 
 ?>
 
-
+<link href="css/style.css" rel="stylesheet"/>
 <div class="container">
 
-    <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav pull-right">
-            <ul id="nav_left" class="nav navbar-nav pull-right">
-                <li class=""><a href="login.php">Log in</a></li>
-            </ul>
-
-        </ul>
-    </div>
     <div class="row">
         <div class="col-md-12">
             <div class="wrap">

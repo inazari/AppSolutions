@@ -168,3 +168,8 @@ body {
     border-radius: 5px;
 
 }
+
+.col-md-3 img, .col-sm-4 img, .col-xs-6 img{
+    height: 240px;
+    width: 370px;
+}

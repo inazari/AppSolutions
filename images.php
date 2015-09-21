@@ -31,8 +31,8 @@ echo "</div></div>";
     function create_window(image, width, height) {
 
         // Add some pixels to the width and height:
-        width = width + 100;
-        height = height + 100;
+        width = width;
+        height = height;
 
         // If the window is already open,
         // resize it to the new dimensions:

@@ -9,7 +9,7 @@ $user = new User();
 
 
  // Full image path:
- $image = "../uploads/{$user->data()->id}/{$_GET['image']}";
+ $image = "uploads/{$user->data()->id}/{$_GET['image']}";
 
  // Check that the image exists and is a file:
  if (file_exists ($image) && (is_file($image))) {
